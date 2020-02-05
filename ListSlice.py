@@ -1,3 +1,5 @@
+#Slices work the same between strings and lists
+
 def first_4(shopping):
  	return (shopping[0:4])
 
@@ -17,6 +19,7 @@ def sillycase (word):
     first = int((len(word)) / 2)
     print (((word [:first]).lower()) + (word [first:]).upper())  
 
-     
 
-sillycase (input("What?   "))
+numbers = list(range(10))
+print (numbers[::-1])
+reverse_evens (numbers)

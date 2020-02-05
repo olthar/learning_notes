@@ -16,9 +16,12 @@ add (5,20)
 """
 def multiply (base,*args):
     total = base
-    previous = ()
+    previous = list(*args)
+    """
     for num in args:
         previous = num
         total += num
+    """
     print(total)
+    print(previous)
 multiply (5,5,7)
